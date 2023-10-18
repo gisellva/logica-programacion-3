@@ -1,0 +1,56 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Comfortaa', sans-serif;
+    font-family: 'Fira Sans Condensed', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-family: 'Poppins', sans-serif;
+
+}
+/*estilos del contenedor principal*/
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 30px;
+    height: 100vh;
+    
+    width: 100%;
+    background: linear-gradient(-45deg, #f6a5cb, #e73c7e, #7defd3, #24e0b4);
+	background-size: 400% 400%;
+	animation: gradient 15s ease infinite;
+}
+/*animacion del degrade en css */
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+h1{
+    font-size: 3.5rem;
+    color: white;
+}
+input{
+    border: none;
+    border-radius: 5px;
+    height: 35px;
+    width: 250px;
+    
+}
+button{
+    border: none;
+    background-color: aliceblue;
+    border-radius: 3px;
+    width: 100px;
+    height: 35px;
+
+}
